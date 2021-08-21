@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/aptive-data-react/static/css/main.58647807.chunk.css",
-    "main.js": "/aptive-data-react/static/js/main.a5b57469.chunk.js",
-    "main.js.map": "/aptive-data-react/static/js/main.a5b57469.chunk.js.map",
+    "main.js": "/aptive-data-react/static/js/main.f4445b6a.chunk.js",
+    "main.js.map": "/aptive-data-react/static/js/main.f4445b6a.chunk.js.map",
     "runtime-main.js": "/aptive-data-react/static/js/runtime-main.470f7355.js",
     "runtime-main.js.map": "/aptive-data-react/static/js/runtime-main.470f7355.js.map",
-    "static/js/2.607096a7.chunk.js": "/aptive-data-react/static/js/2.607096a7.chunk.js",
-    "static/js/2.607096a7.chunk.js.map": "/aptive-data-react/static/js/2.607096a7.chunk.js.map",
+    "static/js/2.04579517.chunk.js": "/aptive-data-react/static/js/2.04579517.chunk.js",
+    "static/js/2.04579517.chunk.js.map": "/aptive-data-react/static/js/2.04579517.chunk.js.map",
     "index.html": "/aptive-data-react/index.html",
     "static/css/main.58647807.chunk.css.map": "/aptive-data-react/static/css/main.58647807.chunk.css.map",
-    "static/js/2.607096a7.chunk.js.LICENSE.txt": "/aptive-data-react/static/js/2.607096a7.chunk.js.LICENSE.txt",
+    "static/js/2.04579517.chunk.js.LICENSE.txt": "/aptive-data-react/static/js/2.04579517.chunk.js.LICENSE.txt",
     "static/media/logo.802c56fb.png": "/aptive-data-react/static/media/logo.802c56fb.png"
   },
   "entrypoints": [
     "static/js/runtime-main.470f7355.js",
-    "static/js/2.607096a7.chunk.js",
+    "static/js/2.04579517.chunk.js",
     "static/css/main.58647807.chunk.css",
-    "static/js/main.a5b57469.chunk.js"
+    "static/js/main.f4445b6a.chunk.js"
   ]
 }
