@@ -1,13 +1,52 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+:root {
+  --primary: #6948ff;
+  --secondary: #553bcb;
+  --lightgrey: #d3d3d3;
+  --grey: #808080;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #333;
+  font-family: 'Montserrat', sans-serif; /* Always be sure to add a secondary font because some browsers may not support the font you choose */
+  line-height: 1.5;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.primary-color {
+  color: var(--primary);
+}
+
+button {
+  width: 100%;
+  padding: 8px 0;
+  border-radius: 4px;
+  border: 1px solid var(--primary);
+  background-color: var(--primary);
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--secondary);
+  border: 1px solid var(--secondary);
 }

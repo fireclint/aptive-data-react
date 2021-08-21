@@ -1,0 +1,119 @@
+/* Section-E (Contact) */
+.section-e {
+    width: 100%;
+    margin: 3rem 0;
+    display: flex;
+  }
+  
+  .section-e .container {
+    max-width: 1240px;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+  }
+  
+  .section-e .col-1 {
+    flex: 1 0 45%;
+    padding: 5rem 2rem;
+  }
+  
+  .section-e .col-1 h2 {
+    font-size: 28px;
+    padding: 0.4rem 0;
+  }
+  .section-e p {
+    color: var(--grey);
+  }
+  
+  .section-e .col-1 .address {
+    padding: 1rem 0;
+  }
+  
+  .section-e .col-1 .icons {
+    display: flex;
+    align-items: center;
+    padding: 0.4rem 0;
+  }
+  
+
+  
+  .section-e .careers {
+    padding: 2rem 0;
+  }
+  
+  .section-e span {
+    color: var(--primary);
+  }
+  
+  .section-e .col-2 {
+    flex: 1 0 55%;
+    padding: 5rem 2rem;
+  }
+  
+  .section-e form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .section-e input {
+    margin-bottom: 1rem;
+    padding: 0.6rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid var(--lightgrey);
+  }
+  .section-e textarea {
+    margin-bottom: 1rem;
+    padding: 0.6rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid var(--lightgrey);
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .section-e form .checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+  }
+  
+  .section-e form .checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+  }
+  
+  .section-e .checkbox input {
+    margin: 0;
+    padding-right: 4px;
+  }
+  
+  .section-e .checkbox p {
+    font-size: 12px;
+    padding-left: 4px;
+  }
+ 
+  
+  
+  @media screen and (max-width: 960px) {
+  
+  /* Section E */
+  .section-e {
+    margin: 1 0;
+  }
+  .section-e .container {
+    flex-direction: column;
+  }
+  
+  .section-e .col-1 {
+    padding: 0 1rem;
+  }
+  
+  .section-e .col-2 {
+    padding: 1rem;
+  }
+  }  

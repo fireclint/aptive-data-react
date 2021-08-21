@@ -1,0 +1,97 @@
+
+/* Section B (Pricing) */
+
+.section-b {
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.section-b .container {
+  max-width: 1240px;
+  padding: 1rem;
+  margin: auto;
+  overflow: hidden;
+}
+
+.section-b .top-content {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  border-bottom: 1px solid var(--lightgrey);
+  padding-bottom: 3rem;
+}
+
+.section-b .top-content h2 {
+  font-size: 38px;
+  padding-bottom: 0.5rem;
+}
+
+.section-b .top-content span {
+  color: var(--primary);
+}
+
+.section-b p {
+  color: var(--grey);
+}
+
+
+
+.section-b .bottom-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin: 3rem auto;
+}
+
+.section-b .card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1rem 1rem 0;
+}
+
+.section-b i {
+  color: green;
+  padding-right: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-b .card div {
+  display: flex;
+  border-bottom: 1px solid var(--lightgrey);
+  padding: 1rem 0;
+}
+
+.section-b .card .no-border {
+  border: none;
+}
+
+.section-b .card span {
+  color: var(--primary);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.section-b .card h3 {
+  font-size: 28px;
+  margin: 0.7rem 0;
+}
+
+
+
+@media screen and (max-width: 960px) {
+
+  /* Section B */
+  .section-b .top-content {
+    grid-template-columns: 1fr;
+  }
+.section-b .container .bottom-content {
+  display: none;
+}
+
+.section-b .top-content h2 {
+  font-size: 32px;
+}
+
+}

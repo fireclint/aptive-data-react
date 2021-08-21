@@ -1,0 +1,97 @@
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: #22262a;
+  }
+  
+  .header .navbar {
+    max-width: 1240px;
+    height: 100%;
+    padding: 0 1rem;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header .logo {
+      display: flex;
+      align-items: center;
+  }
+  
+  .header .navbar img {
+    width: 80px;
+    height: auto;
+  }
+  
+  .header .nav-menu {
+    display: flex;
+    align-items: center;
+    justify-self: start;
+  }
+
+  .header .nav-item {
+    padding: 0 1.5rem;
+  }
+  
+  .header .hamburger {
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+    display: none;
+  }
+  
+  /* .header .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--lightgrey);
+  } */
+
+
+
+  @media screen and (max-width: 960px) {
+
+    /* Navbar */
+    .header .nav-menu {
+      position: fixed;
+      left: -100%;
+      flex-direction: column;
+      justify-content: center;
+      background-color: #22262a;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: 0.3s;
+    }
+    
+    .header .nav-menu.active {
+      left: 0;
+    }
+    
+    .header .nav-item {
+      margin: 1.5rem 0;
+    }
+    
+    .header .hamburger {
+      display: block;
+      cursor: pointer;
+    }
+    
+    /* Hamburger animation */
+    .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+    
+    .hamburger.active .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+    }
+    
+    .hamburger.active .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+    
+}
