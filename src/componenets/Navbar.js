@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Logo from '../images/logo.png'
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 import './NavbarStyles.css'
 
@@ -17,16 +18,32 @@ function Navbar() {
                 </div>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className="nav-item">
-                        <a href="/" class="nav-link">Home</a>
+                        <Link to="header"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500} class="nav-link">Home</Link>
                     </li>
                     <li className="nav-item">
-                        <a href="#pricing" class="nav-link">Pricing</a>
+                        <Link to="pricing"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500} href='#pricing' class="nav-link">Pricing</Link>
                     </li>
                     <li className="nav-item">
-                        <a href="#faq" class="nav-link">FAQ</a>
+                        <Link to="faq"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500} href="#faq" class="nav-link">FAQ</Link>
                     </li>
                     <li className="nav-item">
-                        <a href="#contact" class="nav-link">Contact</a>
+                        <Link to="contact"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500} href="#contact" class="nav-link">Contact</Link>
                     </li>
                 </ul>
                 <div className="hamburger" onClick={handleClick}>
